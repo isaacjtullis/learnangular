@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ArtistItemComponent } from './component.artist-item';
 
 export class Artist {
   name: string;
@@ -10,7 +11,7 @@ export class Artist {
 @Component({
   selector: 'app',
   templateUrl: './partials/app.html',
-  styleUrls: [ "./css/app.css" ] 
+  styleUrls: [ "./css/app.css" ]
 })
 
 export class AppComponent {
